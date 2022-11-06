@@ -3,6 +3,11 @@
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/jocarrd/jc-product-card",
+    "type": "git"
+  },
+  "homepage": "https://github.com/jocarrd/jc-product-card",
   "files": [
     "dist",
     "src"
@@ -14,6 +19,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
+    "test:watch": "tsdx test --watch",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
@@ -47,21 +53,38 @@
     }
   ],
   "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
     "@rollup/plugin-image": "^3.0.1",
     "@size-limit/preset-small-lib": "^8.1.0",
-    "@types/react": "^18.0.24",
+    "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
+    "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
+    "babel-jest": "^29.2.2",
     "eslint": "^8.26.0",
     "eslint-plugin-react": "^7.31.10",
     "husky": "^8.0.1",
+    "jest": "^25.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-test-renderer": "^18.2.0",
     "rollup-plugin-postcss": "^4.0.2",
     "size-limit": "^8.1.0",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.0",
     "typescript": "^3.9.10"
-  }
+  },
+  "keywords": [
+    "product",
+    "card",
+    "jocarrd"
+  ],
+  "jest":{
+    "moduleNameMapper": {
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
+    "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
+    }
 }
