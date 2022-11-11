@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTitle Product Tile must be render with custom title 1`] = `
+<span
+  className="productDescription undefined"
+>
+  Cutstom Product
+</span>
+`;
+
+exports[`ProductTitle ProductTitle must show 1`] = `
+<div
+  className="productCard undefined"
+>
+  <span
+    className="productDescription undefined"
+  >
+    Cofee-Mug without Image
+  </span>
+</div>
+`;
