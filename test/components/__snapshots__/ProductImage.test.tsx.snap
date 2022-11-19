@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImage Product Image must be render with custom image 1`] = `
+<img
+  alt="Product"
+  className="productImg undefined"
+  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rtve.es%2Fplay%2Faudios%2Fespacio-en-blanco%2Fovnis-primeras-revelaciones-del-pentagono-13-06-21%2F5940378%2F&psig=AOvVaw0p5oysTmPrZu8TAJEbq0B6&ust=1668962740310000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPjXo-zYuvsCFQAAAAAdAAAAABAD"
+/>
+`;
+
+exports[`ProductImage ProductCard must show product image 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="Product"
+    className="productImg undefined"
+    src="./coffee-mug.png"
+  />
+</div>
+`;
