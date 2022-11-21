@@ -2,7 +2,9 @@
 
 Este es un paquete de pruebas de despliegue en NPM
 
-### Jorge Carrera
+```
+npm i jc-product-card
+```
 
 ## Ejemplo
 
